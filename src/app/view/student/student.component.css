@@ -1,0 +1,23 @@
+#tblStudents tbody{
+  background-color: white;
+}
+
+#tblStudents tr{
+  cursor: pointer;
+}
+
+#tblStudents tr th:first-child, #tblBuses tr td:first-child {
+  text-align: center;
+}
+
+#tblStudents tr td:last-child{
+  text-align: center;
+}
+
+#tblStudents tr td:last-child:hover{
+  color: red;
+}
+
+.selected{
+  background-color: lightgray;
+}
